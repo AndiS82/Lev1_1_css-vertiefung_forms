@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    font-size: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    padding: 20px;
+    min-width: 20%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+form>* {
+    padding: 5px 0;
+    font-size: 2rem;
+}
+
+div {
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div>* {
+    font-size: 2rem;
+}
+
+div label {
+    width: 50%;
+}
+
+input[type="text"] {
+    font-size: 2rem;
+    padding: 5px 50px;
+}
+
+input[type="email"] {
+    font-size: 2rem;
+    width: 99%
+}
+
+input[type="submit"] {
+    color: white;
+    padding: 5px 50px;
+    background-color: lightseagreen;
+
+    margin-top: 20px;
+}
+
+h1::after {
+    content: " *";
+    color: red;
+}
